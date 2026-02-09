@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="40" viewBox="0 0 400 40">
+  <defs>
+    <linearGradient id="alBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2533"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <filter id="alGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feFlood flood-color="#eab308" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="400" height="40" rx="8" ry="8" fill="url(#alBg)" stroke="#334155" stroke-width="1"/>
+  <path d="M18,8 L28,28 L8,28 Z" fill="none" stroke="#eab308" stroke-width="1.5" stroke-linejoin="round" filter="url(#alGlow)"/>
+  <text x="18" y="25" fill="#eab308" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" font-weight="800" text-anchor="middle">!</text>
+  <text x="40" y="18" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="8" font-weight="600" letter-spacing="1">MOST RECENT ALARM</text>
+  <text x="40" y="32" fill="#eab308" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" font-weight="600">GEN-01 Overcurrent Trip</text>
+  <rect x="300" y="8" width="60" height="24" rx="6" ry="6" fill="#047857" stroke="#065f46" stroke-width="1"/>
+  <text x="330" y="24" fill="#f0f0f0" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">ACK</text>
+  <path d="M380,16 L386,22 L392,16" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

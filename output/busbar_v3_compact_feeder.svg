@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="480" viewBox="0 0 200 480">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C1929;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#152238;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="busGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E65100;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="amberGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#FF8F00" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="statusGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#00E676" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="200" height="480" fill="url(#bgGrad3)" rx="8" ry="8"/>
+  <rect x="10" y="40" width="180" height="10" fill="url(#busGrad3)" rx="2" ry="2" filter="url(#amberGlow)"/>
+  <text x="100" y="34" fill="#FFB74D" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle" font-weight="bold">22 kV BUS</text>
+  <line x1="100" y1="50" x2="100" y2="70" stroke="#4FC3F7" stroke-width="2.5"/>
+  <rect x="90" y="70" width="20" height="8" fill="none" stroke="#4FC3F7" stroke-width="1.5" rx="2" ry="2"/>
+  <line x1="94" y1="74" x2="106" y2="74" stroke="#4FC3F7" stroke-width="1.5"/>
+  <line x1="100" y1="78" x2="100" y2="105" stroke="#4FC3F7" stroke-width="2.5"/>
+  <rect x="84.0" y="105" width="32" height="32" fill="#00C853" rx="5" ry="5" filter="url(#statusGlow)" stroke="#00E676" stroke-width="1"/>
+  <line x1="90" y1="121.0" x2="110" y2="121.0" stroke="white" stroke-width="2.5"/>
+  <text x="100" y="151" fill="#B0BEC5" font-family="Consolas, monospace" font-size="10" text-anchor="middle">CB-01</text>
+  <line x1="100" y1="137" x2="100" y2="167" stroke="#4FC3F7" stroke-width="2.5"/>
+  <circle cx="100" cy="172" r="8" fill="none" stroke="#4FC3F7" stroke-width="1.5"/>
+  <circle cx="100" cy="182" r="8" fill="none" stroke="#4FC3F7" stroke-width="1.5"/>
+  <line x1="100" y1="190" x2="100" y2="222" stroke="#4FC3F7" stroke-width="2.5"/>
+  <path d="M100,227 l8,10 l-16,10 l8,10 l-16,10 l8,10 l-16,10 l8,10 l-16,10 l8,10" fill="none" stroke="#FFB74D" stroke-width="2"/>
+  <rect x="15" y="340" width="170" height="120" fill="#0d1f35" rx="6" ry="6" stroke="#1E88E5" stroke-width="0.8"/>
+  <text x="30" y="358" fill="#78909C" font-family="Consolas, monospace" font-size="10" font-weight="bold">P</text>
+  <text x="110" y="358" fill="#4FC3F7" font-family="Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold">250.3</text>
+  <text x="175" y="358" fill="#546E7A" font-family="Consolas, monospace" font-size="9" text-anchor="end">kW</text>
+  <text x="30" y="378" fill="#78909C" font-family="Consolas, monospace" font-size="10" font-weight="bold">Q</text>
+  <text x="110" y="378" fill="#81C784" font-family="Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold">75.09</text>
+  <text x="175" y="378" fill="#546E7A" font-family="Consolas, monospace" font-size="9" text-anchor="end">kVAr</text>
+  <text x="30" y="398" fill="#78909C" font-family="Consolas, monospace" font-size="10" font-weight="bold">I</text>
+  <text x="110" y="398" fill="#FFB74D" font-family="Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold">402.5</text>
+  <text x="175" y="398" fill="#546E7A" font-family="Consolas, monospace" font-size="9" text-anchor="end">A</text>
+  <text x="30" y="418" fill="#78909C" font-family="Consolas, monospace" font-size="10" font-weight="bold">V</text>
+  <text x="110" y="418" fill="#CE93D8" font-family="Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold">22.1</text>
+  <text x="175" y="418" fill="#546E7A" font-family="Consolas, monospace" font-size="9" text-anchor="end">kV</text>
+  <text x="30" y="438" fill="#78909C" font-family="Consolas, monospace" font-size="10" font-weight="bold">PF</text>
+  <text x="110" y="438" fill="#FF8A65" font-family="Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold">0.96</text>
+  <text x="175" y="438" fill="#546E7A" font-family="Consolas, monospace" font-size="9" text-anchor="end"/>
+</svg>

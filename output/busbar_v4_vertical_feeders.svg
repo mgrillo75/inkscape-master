@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1622;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#111E30;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="vBusGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D32F2F;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F44336;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="redGlow4" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#F44336" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="blueGlow4" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#2196F3" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="900" height="600" fill="url(#bgGrad4)" rx="8" ry="8"/>
+  <text x="450" y="30" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="2">SUBSTATION - VERTICAL BUSBAR ARRANGEMENT</text>
+  <rect x="82" y="62" width="14" height="500" fill="black" opacity="0.3" rx="3" ry="3"/>
+  <rect x="80" y="60" width="14" height="500" fill="url(#vBusGrad)" rx="3" ry="3" filter="url(#redGlow4)" stroke="#EF5350" stroke-width="0.5"/>
+  <text x="87.0" y="52" fill="#EF9A9A" font-family="Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold">11 kV</text>
+  <g id="hfeed_0">
+    <line x1="94" y1="90.0" x2="400" y2="90.0" stroke="#42A5F5" stroke-width="2.5"/>
+    <circle cx="94" cy="90.0" r="4" fill="#F44336"/>
+    <rect x="188.0" y="78.0" width="24" height="24" fill="#00C853" rx="4" ry="4" stroke="#69F0AE" stroke-width="0.8"/>
+    <line x1="193" y1="90.0" x2="207" y2="90.0" stroke="white" stroke-width="2"/>
+    <text x="200" y="73.0" fill="#90A4AE" font-family="Consolas, monospace" font-size="9" text-anchor="middle">CB1</text>
+    <circle cx="295" cy="90.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <circle cx="305" cy="90.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <rect x="430" y="65.0" width="160" height="50" fill="#0d1f35" rx="6" ry="6" stroke="#1565C0" stroke-width="1"/>
+    <text x="510.0" y="82.0" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" font-weight="bold">DG SET 1</text>
+    <text x="510.0" y="102.0" fill="#4FC3F7" font-family="Consolas, monospace" font-size="11" text-anchor="middle">250 kW</text>
+    <circle cx="610" cy="85.0" r="5" fill="#00E676"/>
+    <text x="622" y="89.0" fill="#00E676" font-family="Consolas, monospace" font-size="9">RUNNING</text>
+    <rect x="605" y="98.0" width="200" height="6" fill="#1a2a3a" rx="3" ry="3"/>
+    <rect x="605" y="98.0" width="83.33333333333334" height="6" fill="#00E676" rx="3" ry="3" opacity="0.8"/>
+  </g>
+  <g id="hfeed_1">
+    <line x1="94" y1="178.0" x2="400" y2="178.0" stroke="#42A5F5" stroke-width="2.5"/>
+    <circle cx="94" cy="178.0" r="4" fill="#F44336"/>
+    <rect x="188.0" y="166.0" width="24" height="24" fill="#00C853" rx="4" ry="4" stroke="#69F0AE" stroke-width="0.8"/>
+    <line x1="193" y1="178.0" x2="207" y2="178.0" stroke="white" stroke-width="2"/>
+    <text x="200" y="161.0" fill="#90A4AE" font-family="Consolas, monospace" font-size="9" text-anchor="middle">CB2</text>
+    <circle cx="295" cy="178.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <circle cx="305" cy="178.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <rect x="430" y="153.0" width="160" height="50" fill="#0d1f35" rx="6" ry="6" stroke="#1565C0" stroke-width="1"/>
+    <text x="510.0" y="170.0" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" font-weight="bold">DG SET 2</text>
+    <text x="510.0" y="190.0" fill="#4FC3F7" font-family="Consolas, monospace" font-size="11" text-anchor="middle">250 kW</text>
+    <circle cx="610" cy="173.0" r="5" fill="#00E676"/>
+    <text x="622" y="177.0" fill="#00E676" font-family="Consolas, monospace" font-size="9">RUNNING</text>
+    <rect x="605" y="186.0" width="200" height="6" fill="#1a2a3a" rx="3" ry="3"/>
+    <rect x="605" y="186.0" width="83.33333333333334" height="6" fill="#00E676" rx="3" ry="3" opacity="0.8"/>
+  </g>
+  <g id="hfeed_2">
+    <line x1="94" y1="266.0" x2="400" y2="266.0" stroke="#42A5F5" stroke-width="2.5"/>
+    <circle cx="94" cy="266.0" r="4" fill="#F44336"/>
+    <rect x="188.0" y="254.0" width="24" height="24" fill="#00C853" rx="4" ry="4" stroke="#69F0AE" stroke-width="0.8"/>
+    <line x1="193" y1="266.0" x2="207" y2="266.0" stroke="white" stroke-width="2"/>
+    <text x="200" y="249.0" fill="#90A4AE" font-family="Consolas, monospace" font-size="9" text-anchor="middle">CB3</text>
+    <circle cx="295" cy="266.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <circle cx="305" cy="266.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <rect x="430" y="241.0" width="160" height="50" fill="#0d1f35" rx="6" ry="6" stroke="#1565C0" stroke-width="1"/>
+    <text x="510.0" y="258.0" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" font-weight="bold">PV ARRAY</text>
+    <text x="510.0" y="278.0" fill="#4FC3F7" font-family="Consolas, monospace" font-size="11" text-anchor="middle">150 kW</text>
+    <circle cx="610" cy="261.0" r="5" fill="#FFEB3B"/>
+    <text x="622" y="265.0" fill="#FFEB3B" font-family="Consolas, monospace" font-size="9">GENERATING</text>
+    <rect x="605" y="274.0" width="200" height="6" fill="#1a2a3a" rx="3" ry="3"/>
+    <rect x="605" y="274.0" width="50.0" height="6" fill="#FFEB3B" rx="3" ry="3" opacity="0.8"/>
+  </g>
+  <g id="hfeed_3">
+    <line x1="94" y1="354.0" x2="400" y2="354.0" stroke="#42A5F5" stroke-width="2.5"/>
+    <circle cx="94" cy="354.0" r="4" fill="#F44336"/>
+    <rect x="188.0" y="342.0" width="24" height="24" fill="#00C853" rx="4" ry="4" stroke="#69F0AE" stroke-width="0.8"/>
+    <line x1="193" y1="354.0" x2="207" y2="354.0" stroke="white" stroke-width="2"/>
+    <text x="200" y="337.0" fill="#90A4AE" font-family="Consolas, monospace" font-size="9" text-anchor="middle">CB4</text>
+    <circle cx="295" cy="354.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <circle cx="305" cy="354.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <rect x="430" y="329.0" width="160" height="50" fill="#0d1f35" rx="6" ry="6" stroke="#1565C0" stroke-width="1"/>
+    <text x="510.0" y="346.0" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" font-weight="bold">BATTERY ESS</text>
+    <text x="510.0" y="366.0" fill="#4FC3F7" font-family="Consolas, monospace" font-size="11" text-anchor="middle">200 kW</text>
+    <circle cx="610" cy="349.0" r="5" fill="#00BCD4"/>
+    <text x="622" y="353.0" fill="#00BCD4" font-family="Consolas, monospace" font-size="9">CHARGING</text>
+    <rect x="605" y="362.0" width="200" height="6" fill="#1a2a3a" rx="3" ry="3"/>
+    <rect x="605" y="362.0" width="66.66666666666666" height="6" fill="#00BCD4" rx="3" ry="3" opacity="0.8"/>
+  </g>
+  <g id="hfeed_4">
+    <line x1="94" y1="442.0" x2="400" y2="442.0" stroke="#42A5F5" stroke-width="2.5"/>
+    <circle cx="94" cy="442.0" r="4" fill="#F44336"/>
+    <rect x="188.0" y="430.0" width="24" height="24" fill="#00C853" rx="4" ry="4" stroke="#69F0AE" stroke-width="0.8"/>
+    <line x1="193" y1="442.0" x2="207" y2="442.0" stroke="white" stroke-width="2"/>
+    <text x="200" y="425.0" fill="#90A4AE" font-family="Consolas, monospace" font-size="9" text-anchor="middle">CB5</text>
+    <circle cx="295" cy="442.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <circle cx="305" cy="442.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <rect x="430" y="417.0" width="160" height="50" fill="#0d1f35" rx="6" ry="6" stroke="#1565C0" stroke-width="1"/>
+    <text x="510.0" y="434.0" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" font-weight="bold">WIND GEN</text>
+    <text x="510.0" y="454.0" fill="#4FC3F7" font-family="Consolas, monospace" font-size="11" text-anchor="middle">100 kW</text>
+    <circle cx="610" cy="437.0" r="5" fill="#00E676"/>
+    <text x="622" y="441.0" fill="#00E676" font-family="Consolas, monospace" font-size="9">RUNNING</text>
+    <rect x="605" y="450.0" width="200" height="6" fill="#1a2a3a" rx="3" ry="3"/>
+    <rect x="605" y="450.0" width="33.33333333333333" height="6" fill="#00E676" rx="3" ry="3" opacity="0.8"/>
+  </g>
+  <g id="hfeed_5">
+    <line x1="94" y1="530.0" x2="400" y2="530.0" stroke="#42A5F5" stroke-width="2.5"/>
+    <circle cx="94" cy="530.0" r="4" fill="#F44336"/>
+    <rect x="188.0" y="518.0" width="24" height="24" fill="#00C853" rx="4" ry="4" stroke="#69F0AE" stroke-width="0.8"/>
+    <line x1="193" y1="530.0" x2="207" y2="530.0" stroke="white" stroke-width="2"/>
+    <text x="200" y="513.0" fill="#90A4AE" font-family="Consolas, monospace" font-size="9" text-anchor="middle">CB6</text>
+    <circle cx="295" cy="530.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <circle cx="305" cy="530.0" r="6" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+    <rect x="430" y="505.0" width="160" height="50" fill="#0d1f35" rx="6" ry="6" stroke="#1565C0" stroke-width="1"/>
+    <text x="510.0" y="522.0" fill="#64B5F6" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" font-weight="bold">MAIN LOAD</text>
+    <text x="510.0" y="542.0" fill="#4FC3F7" font-family="Consolas, monospace" font-size="11" text-anchor="middle">560 kW</text>
+    <circle cx="610" cy="525.0" r="5" fill="#FF9800"/>
+    <text x="622" y="529.0" fill="#FF9800" font-family="Consolas, monospace" font-size="9">ACTIVE</text>
+    <rect x="605" y="538.0" width="200" height="6" fill="#1a2a3a" rx="3" ry="3"/>
+    <rect x="605" y="538.0" width="186.66666666666666" height="6" fill="#FF9800" rx="3" ry="3" opacity="0.8"/>
+  </g>
+</svg>

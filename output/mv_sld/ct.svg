@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="48" viewBox="0 0 28 48">
+  <defs>
+    <filter id="ctGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feFlood flood-color="#60a5fa" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <line x1="14" y1="0" x2="14" y2="14" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="14" cy="20" r="7" fill="none" stroke="#60a5fa" stroke-width="1.5" filter="url(#ctGlow)"/>
+  <circle cx="14" cy="28" r="7" fill="none" stroke="#60a5fa" stroke-width="1.5" filter="url(#ctGlow)"/>
+  <line x1="14" y1="35" x2="14" y2="48" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+</svg>

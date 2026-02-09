@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d0d2b;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="busGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00E5FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0091EA;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF1493;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF69B4;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#00E5FF" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pinkGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#FF1493" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="whiteGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="400" fill="url(#bgGrad2)" rx="6" ry="6"/>
+  <g opacity="0.05">
+    <line x1="0" y1="0" x2="0" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="40" y1="0" x2="40" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="80" y1="0" x2="80" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="120" y1="0" x2="120" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="160" y1="0" x2="160" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="240" y1="0" x2="240" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="280" y1="0" x2="280" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="320" y1="0" x2="320" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="360" y1="0" x2="360" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="440" y1="0" x2="440" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="480" y1="0" x2="480" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="520" y1="0" x2="520" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="560" y1="0" x2="560" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="640" y1="0" x2="640" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="680" y1="0" x2="680" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="720" y1="0" x2="720" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="760" y1="0" x2="760" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="840" y1="0" x2="840" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="880" y1="0" x2="880" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="920" y1="0" x2="920" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="960" y1="0" x2="960" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="1040" y1="0" x2="1040" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="1080" y1="0" x2="1080" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="1120" y1="0" x2="1120" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="1160" y1="0" x2="1160" y2="400" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="40" x2="1200" y2="40" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="280" x2="1200" y2="280" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="320" x2="1200" y2="320" stroke="#00E5FF" stroke-width="0.5"/>
+    <line x1="0" y1="360" x2="1200" y2="360" stroke="#00E5FF" stroke-width="0.5"/>
+  </g>
+  <text x="600" y="30" fill="#00E5FF" filter="url(#cyanGlow)" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" letter-spacing="4">MAIN BUS - 22kV</text>
+  <line x1="80" y1="80" x2="1120" y2="80" stroke="#00E5FF" filter="url(#cyanGlow)" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  <line x1="80" y1="80" x2="1120" y2="80" stroke="url(#busGrad2)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="80" y1="79" x2="1120" y2="79" stroke="white" stroke-width="1" opacity="0.3"/>
+  <line x1="80" y1="110" x2="1120" y2="110" stroke="#00E5FF" filter="url(#cyanGlow)" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+  <line x1="80" y1="110" x2="1120" y2="110" stroke="url(#busGrad2)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <text x="70" y="85" fill="#00E5FF" font-family="Consolas, monospace" font-size="10" text-anchor="end" font-weight="bold">BUS I</text>
+  <text x="70" y="115" fill="#00BCD4" font-family="Consolas, monospace" font-size="10" text-anchor="end" font-weight="bold">BUS II</text>
+  <g id="feeder_v2_0">
+    <line x1="110.0" y1="80" x2="110.0" y2="95" stroke="#FF6D00" stroke-width="2"/>
+    <polygon points="110.0,95 118.0,103 110.0,111 102.0,103" fill="none" stroke="#FF6D00" stroke-width="1.5"/>
+    <line x1="110.0" y1="111" x2="110.0" y2="110" stroke="#FF6D00" stroke-width="2"/>
+    <line x1="110.0" y1="110" x2="110.0" y2="200" stroke="#FF6D00" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="110.0" cy="80" r="4" fill="#FF6D00" filter="url(#whiteGlow)" opacity="0.9"/>
+    <circle cx="110.0" cy="110" r="4" fill="#FF6D00" filter="url(#whiteGlow)" opacity="0.9"/>
+    <path d="M102.0,148 L118.0,148 L110.0,160 Z" fill="#FF6D00" opacity="0.8"/>
+    <path d="M102.0,172 L118.0,172 L110.0,160 Z" fill="#FF6D00" opacity="0.8"/>
+    <circle cx="110.0" cy="190" r="6" fill="none" stroke="#FF6D00" stroke-width="1.5"/>
+    <circle cx="110.0" cy="198" r="6" fill="none" stroke="#FF6D00" stroke-width="1.5"/>
+    <rect x="78.0" y="218" width="64" height="20" fill="#0a0a1a" rx="3" ry="3" stroke="#FF6D00" stroke-width="0.8"/>
+    <text x="110.0" y="232" fill="#FF6D00" font-family="Consolas, monospace" font-size="11" text-anchor="middle" font-weight="bold">F1-DG1</text>
+    <line x1="110.0" y1="204" x2="110.0" y2="216" stroke="#FF6D00" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g id="feeder_v2_1">
+    <line x1="306.0" y1="80" x2="306.0" y2="95" stroke="#FF6D00" stroke-width="2"/>
+    <polygon points="306.0,95 314.0,103 306.0,111 298.0,103" fill="none" stroke="#FF6D00" stroke-width="1.5"/>
+    <line x1="306.0" y1="111" x2="306.0" y2="110" stroke="#FF6D00" stroke-width="2"/>
+    <line x1="306.0" y1="110" x2="306.0" y2="200" stroke="#FF6D00" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="306.0" cy="80" r="4" fill="#FF6D00" filter="url(#whiteGlow)" opacity="0.9"/>
+    <circle cx="306.0" cy="110" r="4" fill="#FF6D00" filter="url(#whiteGlow)" opacity="0.9"/>
+    <path d="M298.0,148 L314.0,148 L306.0,160 Z" fill="#FF6D00" opacity="0.8"/>
+    <path d="M298.0,172 L314.0,172 L306.0,160 Z" fill="#FF6D00" opacity="0.8"/>
+    <circle cx="306.0" cy="190" r="6" fill="none" stroke="#FF6D00" stroke-width="1.5"/>
+    <circle cx="306.0" cy="198" r="6" fill="none" stroke="#FF6D00" stroke-width="1.5"/>
+    <rect x="274.0" y="218" width="64" height="20" fill="#0a0a1a" rx="3" ry="3" stroke="#FF6D00" stroke-width="0.8"/>
+    <text x="306.0" y="232" fill="#FF6D00" font-family="Consolas, monospace" font-size="11" text-anchor="middle" font-weight="bold">F2-DG2</text>
+    <line x1="306.0" y1="204" x2="306.0" y2="216" stroke="#FF6D00" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g id="feeder_v2_2">
+    <line x1="502.0" y1="80" x2="502.0" y2="95" stroke="#FFEB3B" stroke-width="2"/>
+    <polygon points="502.0,95 510.0,103 502.0,111 494.0,103" fill="none" stroke="#FFEB3B" stroke-width="1.5"/>
+    <line x1="502.0" y1="111" x2="502.0" y2="110" stroke="#FFEB3B" stroke-width="2"/>
+    <line x1="502.0" y1="110" x2="502.0" y2="200" stroke="#FFEB3B" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="502.0" cy="80" r="4" fill="#FFEB3B" filter="url(#whiteGlow)" opacity="0.9"/>
+    <circle cx="502.0" cy="110" r="4" fill="#FFEB3B" filter="url(#whiteGlow)" opacity="0.9"/>
+    <path d="M494.0,148 L510.0,148 L502.0,160 Z" fill="#FFEB3B" opacity="0.8"/>
+    <path d="M494.0,172 L510.0,172 L502.0,160 Z" fill="#FFEB3B" opacity="0.8"/>
+    <circle cx="502.0" cy="190" r="6" fill="none" stroke="#FFEB3B" stroke-width="1.5"/>
+    <circle cx="502.0" cy="198" r="6" fill="none" stroke="#FFEB3B" stroke-width="1.5"/>
+    <rect x="474.0" y="218" width="56" height="20" fill="#0a0a1a" rx="3" ry="3" stroke="#FFEB3B" stroke-width="0.8"/>
+    <text x="502.0" y="232" fill="#FFEB3B" font-family="Consolas, monospace" font-size="11" text-anchor="middle" font-weight="bold">F3-PV</text>
+    <line x1="502.0" y1="204" x2="502.0" y2="216" stroke="#FFEB3B" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g id="feeder_v2_3">
+    <line x1="698.0" y1="80" x2="698.0" y2="95" stroke="#76FF03" stroke-width="2"/>
+    <polygon points="698.0,95 706.0,103 698.0,111 690.0,103" fill="none" stroke="#76FF03" stroke-width="1.5"/>
+    <line x1="698.0" y1="111" x2="698.0" y2="110" stroke="#76FF03" stroke-width="2"/>
+    <line x1="698.0" y1="110" x2="698.0" y2="200" stroke="#76FF03" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="698.0" cy="80" r="4" fill="#76FF03" filter="url(#whiteGlow)" opacity="0.9"/>
+    <circle cx="698.0" cy="110" r="4" fill="#76FF03" filter="url(#whiteGlow)" opacity="0.9"/>
+    <path d="M690.0,148 L706.0,148 L698.0,160 Z" fill="#76FF03" opacity="0.8"/>
+    <path d="M690.0,172 L706.0,172 L698.0,160 Z" fill="#76FF03" opacity="0.8"/>
+    <circle cx="698.0" cy="190" r="6" fill="none" stroke="#76FF03" stroke-width="1.5"/>
+    <circle cx="698.0" cy="198" r="6" fill="none" stroke="#76FF03" stroke-width="1.5"/>
+    <rect x="662.0" y="218" width="72" height="20" fill="#0a0a1a" rx="3" ry="3" stroke="#76FF03" stroke-width="0.8"/>
+    <text x="698.0" y="232" fill="#76FF03" font-family="Consolas, monospace" font-size="11" text-anchor="middle" font-weight="bold">F4-BESS</text>
+    <line x1="698.0" y1="204" x2="698.0" y2="216" stroke="#76FF03" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g id="feeder_v2_4">
+    <line x1="894.0" y1="80" x2="894.0" y2="95" stroke="#00E5FF" stroke-width="2"/>
+    <polygon points="894.0,95 902.0,103 894.0,111 886.0,103" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+    <line x1="894.0" y1="111" x2="894.0" y2="110" stroke="#00E5FF" stroke-width="2"/>
+    <line x1="894.0" y1="110" x2="894.0" y2="200" stroke="#00E5FF" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="894.0" cy="80" r="4" fill="#00E5FF" filter="url(#whiteGlow)" opacity="0.9"/>
+    <circle cx="894.0" cy="110" r="4" fill="#00E5FF" filter="url(#whiteGlow)" opacity="0.9"/>
+    <path d="M886.0,148 L902.0,148 L894.0,160 Z" fill="#00E5FF" opacity="0.8"/>
+    <path d="M886.0,172 L902.0,172 L894.0,160 Z" fill="#00E5FF" opacity="0.8"/>
+    <circle cx="894.0" cy="190" r="6" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+    <circle cx="894.0" cy="198" r="6" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+    <rect x="858.0" y="218" width="72" height="20" fill="#0a0a1a" rx="3" ry="3" stroke="#00E5FF" stroke-width="0.8"/>
+    <text x="894.0" y="232" fill="#00E5FF" font-family="Consolas, monospace" font-size="11" text-anchor="middle" font-weight="bold">F5-WIND</text>
+    <line x1="894.0" y1="204" x2="894.0" y2="216" stroke="#00E5FF" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g id="feeder_v2_5">
+    <line x1="1090.0" y1="80" x2="1090.0" y2="95" stroke="#FF1493" stroke-width="2"/>
+    <polygon points="1090.0,95 1098.0,103 1090.0,111 1082.0,103" fill="none" stroke="#FF1493" stroke-width="1.5"/>
+    <line x1="1090.0" y1="111" x2="1090.0" y2="110" stroke="#FF1493" stroke-width="2"/>
+    <line x1="1090.0" y1="110" x2="1090.0" y2="200" stroke="#FF1493" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="1090.0" cy="80" r="4" fill="#FF1493" filter="url(#whiteGlow)" opacity="0.9"/>
+    <circle cx="1090.0" cy="110" r="4" fill="#FF1493" filter="url(#whiteGlow)" opacity="0.9"/>
+    <path d="M1082.0,148 L1098.0,148 L1090.0,160 Z" fill="#FF1493" opacity="0.8"/>
+    <path d="M1082.0,172 L1098.0,172 L1090.0,160 Z" fill="#FF1493" opacity="0.8"/>
+    <circle cx="1090.0" cy="190" r="6" fill="none" stroke="#FF1493" stroke-width="1.5"/>
+    <circle cx="1090.0" cy="198" r="6" fill="none" stroke="#FF1493" stroke-width="1.5"/>
+    <rect x="1054.0" y="218" width="72" height="20" fill="#0a0a1a" rx="3" ry="3" stroke="#FF1493" stroke-width="0.8"/>
+    <text x="1090.0" y="232" fill="#FF1493" font-family="Consolas, monospace" font-size="11" text-anchor="middle" font-weight="bold">F6-LOAD</text>
+    <line x1="1090.0" y1="204" x2="1090.0" y2="216" stroke="#FF1493" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g id="badges">
+    <rect x="50" y="336" width="100" height="24" fill="#0a0a1a" rx="12" ry="12" stroke="#00E5FF" stroke-width="1"/>
+    <text x="100" y="354" fill="#00E5FF" font-family="Consolas, monospace" font-size="11" text-anchor="middle">22.0 kV</text>
+    <rect x="200" y="336" width="100" height="24" fill="#0a0a1a" rx="12" ry="12" stroke="#00E5FF" stroke-width="1"/>
+    <text x="250" y="354" fill="#00E5FF" font-family="Consolas, monospace" font-size="11" text-anchor="middle">50.0 Hz</text>
+    <rect x="400" y="336" width="100" height="24" fill="#0a0a1a" rx="12" ry="12" stroke="#00E5FF" stroke-width="1"/>
+    <text x="450" y="354" fill="#00E5FF" font-family="Consolas, monospace" font-size="11" text-anchor="middle">Bus Tie: CLOSED</text>
+  </g>
+</svg>

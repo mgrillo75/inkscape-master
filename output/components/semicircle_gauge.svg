@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="110" viewBox="0 0 180 110">
+  <defs>
+    <filter id="arcGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M15,95 A75,75 0 0 1 165,95" fill="none" stroke="#1a2744" stroke-width="10" stroke-linecap="round"/>
+  <path d="M15,95 A75,75 0 1 1 130.2,31.7" fill="none" stroke="#00b4d8" stroke-width="10" stroke-linecap="round" filter="url(#arcGlow)"/>
+  <circle cx="130.2" cy="31.7" r="5" fill="#90e0ef" filter="url(#arcGlow)"/>
+  <text x="90" y="90" fill="#e0f7fa" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="bold" text-anchor="middle">68%</text>
+</svg>

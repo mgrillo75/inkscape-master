@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="24" viewBox="0 0 80 24">
+  <defs>
+    <filter id="badgeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feFlood flood-color="#eab308" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>@keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}} .blink{animation:blink 0.8s infinite}</style>
+  </defs>
+  <rect x="0" y="0" width="80" height="24" rx="12" ry="12" fill="#0f172a" stroke="#eab308" stroke-width="1"/>
+  <g class="blink">
+    <circle cx="14" cy="12" r="4" fill="#eab308" filter="url(#badgeGlow)"/>
+  </g>
+  <text x="24" y="16" fill="#eab308" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">ALARM</text>
+</svg>

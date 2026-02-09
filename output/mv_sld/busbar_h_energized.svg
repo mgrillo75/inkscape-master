@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="16" viewBox="0 0 300 16">
+  <defs>
+    <linearGradient id="busG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <filter id="busGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#ef4444" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="3" width="300" height="10" rx="2" ry="2" fill="url(#busG)" filter="url(#busGlow)" stroke="#f87171" stroke-width="0.5"/>
+  <rect x="0" y="3" width="300" height="2" rx="1" ry="1" fill="white" opacity="0.12"/>
+</svg>

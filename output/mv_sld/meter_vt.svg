@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="48" viewBox="0 0 36 48">
+  <defs>
+    <filter id="mtGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feFlood flood-color="#60a5fa" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <line x1="18" y1="0" x2="18" y2="12" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="18" cy="24" r="12" fill="none" stroke="#60a5fa" stroke-width="2" filter="url(#mtGlow)"/>
+  <text x="18" y="28" fill="#60a5fa" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">V</text>
+  <line x1="18" y1="36" x2="18" y2="48" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+</svg>

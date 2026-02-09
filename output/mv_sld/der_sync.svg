@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="derBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="derRing" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <filter id="derGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#3b82f6" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="4" y="8" width="72" height="68" rx="10" ry="10" fill="url(#derBg)" stroke="#334155" stroke-width="1"/>
+  <line x1="40" y1="0" x2="40" y2="16" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="40" cy="44" r="28" fill="none" stroke="url(#derRing)" stroke-width="3" filter="url(#derGlow)"/>
+  <circle cx="40" cy="44" r="22" fill="#3b82f6" opacity="0.12"/>
+  <path d="M26,44 Q33,32 40,44 Q47,56 54,44" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="20" y="74" width="40" height="3" rx="1.5" ry="1.5" fill="#3b82f6" opacity="0.8"/>
+</svg>

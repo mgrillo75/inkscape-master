@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="sparkFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b4d8;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:0.02"/>
+    </linearGradient>
+    <filter id="lineGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <polygon points="0,60 0.0,38.0 10.5,30.0 21.1,35.0 31.6,20.0 42.1,25.0 52.6,15.0 63.2,22.0 73.7,18.0 84.2,28.0 94.7,12.0 105.3,20.0 115.8,8.0 126.3,15.0 136.8,10.0 147.4,18.0 157.9,22.0 168.4,14.0 178.9,10.0 189.5,16.0 200.0,12.0 200,60" fill="url(#sparkFill)"/>
+  <polyline points="0.0,38.0 10.5,30.0 21.1,35.0 31.6,20.0 42.1,25.0 52.6,15.0 63.2,22.0 73.7,18.0 84.2,28.0 94.7,12.0 105.3,20.0 115.8,8.0 126.3,15.0 136.8,10.0 147.4,18.0 157.9,22.0 168.4,14.0 178.9,10.0 189.5,16.0 200.0,12.0" fill="none" stroke="#00b4d8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" filter="url(#lineGlow)"/>
+  <circle cx="200.0" cy="12.0" r="3" fill="#90e0ef" filter="url(#lineGlow)"/>
+</svg>

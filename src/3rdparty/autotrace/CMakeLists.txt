@@ -1,0 +1,52 @@
+add_library(autotrace_LIB STATIC)
+
+target_sources(autotrace_LIB PRIVATE
+    config.h
+    autotrace.c
+    autotrace.h
+    bitmap.c
+    bitmap.h
+    CMakeLists.txt
+    color.c
+    color.h
+    curve.c
+    curve.h
+    despeckle.c
+    despeckle.h
+    epsilon-equal.c
+    epsilon-equal.h
+    exception.c
+    exception.h
+    filename.c
+    filename.h
+    fit.c
+    fit.h
+    image-header.h
+    image-proc.c
+    image-proc.h
+    input.c
+    input.h
+    intl.h
+    logreport.c
+    logreport.h
+    median.c
+    module.c
+    output.c
+    output.h
+    private.h
+    pxl-outline.c
+    pxl-outline.h
+    quantize.h
+    spline.c
+    spline.h
+    thin-image.c
+    thin-image.h
+    types.h
+    vector.c
+    vector.h
+    xstd.h
+)
+
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GLIB REQUIRED IMPORTED_TARGET glib-2.0)
+target_link_libraries(autotrace_LIB PUBLIC PkgConfig::GLIB Intl::Intl)

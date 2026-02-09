@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="100" viewBox="0 0 64 100">
+  <defs>
+    <linearGradient id="xfBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <filter id="xfGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feFlood flood-color="#ef4444" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="4" y="14" width="56" height="74" rx="8" ry="8" fill="url(#xfBg)" stroke="#334155" stroke-width="1"/>
+  <line x1="32" y1="0" x2="32" y2="28" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="40" r="14" fill="none" stroke="#f87171" stroke-width="2.5" filter="url(#xfGlow)"/>
+  <circle cx="32" cy="60" r="14" fill="none" stroke="#f87171" stroke-width="2.5" filter="url(#xfGlow)"/>
+  <line x1="32" y1="74" x2="32" y2="100" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="32" y="94" fill="#9CA3AF" font-family="'JetBrains Mono', Consolas, monospace" font-size="8" text-anchor="middle" font-weight="600">MV</text>
+</svg>

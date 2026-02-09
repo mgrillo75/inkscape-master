@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <defs>
+    <filter id="boxGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#0077b6" flood-opacity="0.3" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="196" height="96" rx="8" ry="8" fill="#0a1628" stroke="#1a3a5c" stroke-width="1" filter="url(#boxGlow)"/>
+  <text x="20" y="32" fill="#5c8aad" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" letter-spacing="1">POWER</text>
+  <text x="20" y="68" fill="#e0f7fa" font-family="'Segoe UI', sans-serif" font-size="32" font-weight="bold">2,450</text>
+  <text x="145" y="68" fill="#5c8aad" font-family="'Segoe UI', sans-serif" font-size="14">kW</text>
+  <rect x="20" y="86" width="60" height="2" rx="1" ry="1" fill="#00b4d8" opacity="0.6"/>
+</svg>

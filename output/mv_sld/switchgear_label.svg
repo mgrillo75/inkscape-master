@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+  <defs>
+    <linearGradient id="swBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="120" height="40" rx="8" ry="8" fill="url(#swBg)" stroke="#334155" stroke-width="1"/>
+  <rect x="0" y="0" width="4" height="40" rx="2" ry="0" fill="#3b82f6"/>
+  <text x="14" y="16" fill="#9CA3AF" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="600">MV SWGR</text>
+  <text x="14" y="30" fill="#f0f0f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" font-weight="700">SECTION A</text>
+</svg>

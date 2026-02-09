@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="teeG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <filter id="teeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feFlood flood-color="#ef4444" flood-opacity="0.5" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="3" width="40" height="10" rx="2" ry="2" fill="url(#teeG)" filter="url(#teeGlow)" stroke="#f87171" stroke-width="0.5"/>
+  <rect x="15" y="8" width="10" height="32" rx="2" ry="2" fill="url(#teeG)" filter="url(#teeGlow)" stroke="#f87171" stroke-width="0.5"/>
+</svg>
