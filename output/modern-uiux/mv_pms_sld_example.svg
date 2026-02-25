@@ -1,0 +1,489 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1f35"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1d30"/>
+      <stop offset="100%" style="stop-color:#111d2e"/>
+    </linearGradient>
+    <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#EF4444" flood-opacity="0.6" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#4ADE80" flood-opacity="0.6" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowBlue" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#3B82F6" flood-opacity="0.6" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowYellow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feFlood flood-color="#FACC15" flood-opacity="0.6" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feFlood flood-color="#4FC3F7" flood-opacity="0.6" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>@keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}.blink{animation:blink 0.8s infinite}</style>
+  </defs>
+  <rect x="0" y="0" width="1600" height="1050" fill="url(#bgGrad)" rx="0" ry="0"/>
+  <g id="alarm_banner">
+    <rect x="0" y="0" width="1600" height="42" fill="#111d2e" stroke="#1e3a5f" stroke-width="0.5"/>
+    <path d="M22,10 L32,30 L12,30 Z" fill="none" stroke="#FACC15" stroke-width="1.5" stroke-linejoin="round" filter="url(#glowYellow)"/>
+    <text x="22" y="27" fill="#FACC15" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="800" text-anchor="middle">!</text>
+    <text x="45" y="20" fill="#64748B" font-family="Consolas, monospace" font-size="8" letter-spacing="1">MOST RECENT ALARM</text>
+    <text x="45" y="33" fill="#FACC15" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600">4611  Section CB status signal failure</text>
+    <rect x="1420" y="9" width="55" height="24" rx="5" ry="5" fill="#111d2e" stroke="#4ADE80" stroke-width="1"/>
+    <text x="1447.5" y="22.0" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">ACK</text>
+    <rect x="1485" y="9" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#FACC15" stroke-width="1"/>
+    <text x="1517.5" y="22.0" fill="#FACC15" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">ALARMS</text>
+  </g>
+  <text x="800.0" y="66" fill="#4FC3F7" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="3" filter="url(#glowCyan)">MV POWER MANAGEMENT - SINGLE LINE DIAGRAM</text>
+  <g id="swg_b">
+    <rect x="200" y="130" width="1100" height="10" rx="2" ry="2" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.5"/>
+    <rect x="200" y="130" width="1100" height="2" rx="1" ry="1" fill="white" opacity="0.15"/>
+    <text x="195" y="137" fill="#E2E8F0" font-family="Consolas, monospace" font-size="11" font-weight="bold" text-anchor="end">SWG-B</text>
+  </g>
+  <g id="swg_a">
+    <rect x="200" y="260" width="1100" height="10" rx="2" ry="2" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.5"/>
+    <rect x="200" y="260" width="1100" height="2" rx="1" ry="1" fill="white" opacity="0.15"/>
+    <text x="195" y="267" fill="#E2E8F0" font-family="Consolas, monospace" font-size="11" font-weight="bold" text-anchor="end">SWG-A</text>
+  </g>
+  <rect x="1420" y="110" width="140" height="65" rx="8" ry="8" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="1430" y="126" fill="#F1F5F9" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="bold">Busbar B</text>
+  <text x="1430" y="144" fill="#64748B" font-family="Consolas, monospace" font-size="10">U</text>
+  <rect x="1450" y="134" width="70" height="16" rx="3" ry="3" fill="#EF4444" opacity="0.15" stroke="#EF4444" stroke-width="0.5"/>
+  <text x="1485" y="146" fill="#EF4444" font-family="Consolas, monospace" font-size="11" font-weight="bold" text-anchor="middle">13787</text>
+  <text x="1525" y="146" fill="#64748B" font-family="Consolas, monospace" font-size="9">V</text>
+  <text x="1430" y="164" fill="#64748B" font-family="Consolas, monospace" font-size="10">f</text>
+  <rect x="1450" y="154" width="70" height="16" rx="3" ry="3" fill="#EF4444" opacity="0.15" stroke="#EF4444" stroke-width="0.5"/>
+  <text x="1485" y="166" fill="#EF4444" font-family="Consolas, monospace" font-size="11" font-weight="bold" text-anchor="middle">60.00</text>
+  <text x="1525" y="166" fill="#64748B" font-family="Consolas, monospace" font-size="9">Hz</text>
+  <rect x="1420" y="240" width="140" height="65" rx="8" ry="8" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="1430" y="256" fill="#F1F5F9" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="bold">Busbar A</text>
+  <text x="1430" y="274" fill="#64748B" font-family="Consolas, monospace" font-size="10">U</text>
+  <rect x="1450" y="264" width="70" height="16" rx="3" ry="3" fill="#EF4444" opacity="0.15" stroke="#EF4444" stroke-width="0.5"/>
+  <text x="1485" y="276" fill="#EF4444" font-family="Consolas, monospace" font-size="11" font-weight="bold" text-anchor="middle">13796</text>
+  <text x="1525" y="276" fill="#64748B" font-family="Consolas, monospace" font-size="9">V</text>
+  <text x="1430" y="294" fill="#64748B" font-family="Consolas, monospace" font-size="10">f</text>
+  <rect x="1450" y="284" width="70" height="16" rx="3" ry="3" fill="#EF4444" opacity="0.15" stroke="#EF4444" stroke-width="0.5"/>
+  <text x="1485" y="296" fill="#EF4444" font-family="Consolas, monospace" font-size="11" font-weight="bold" text-anchor="middle">60.00</text>
+  <text x="1525" y="296" fill="#64748B" font-family="Consolas, monospace" font-size="9">Hz</text>
+  <g id="gen_col_0">
+    <line x1="420.0" y1="140" x2="420.0" y2="162" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="140" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="407.0" y="162" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="413.0" y1="175.0" x2="427.0" y2="175.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="420.0" y1="188" x2="420.0" y2="195" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="195" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="442.0" y="168" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW1B</text>
+    <line x1="420.0" y1="195" x2="420.0" y2="260" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="265" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="420.0" y1="270" x2="420.0" y2="292" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="270" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="407.0" y="292" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="413.0" y1="305.0" x2="427.0" y2="305.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="420.0" y1="318" x2="420.0" y2="325" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="442.0" y="298" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW1A</text>
+    <line x1="420.0" y1="325" x2="420.0" y2="347" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="407.0" y="347" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="413.0" y1="360.0" x2="427.0" y2="360.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="420.0" y1="373" x2="420.0" y2="390" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="390" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="442.0" y="353" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">GCB[1]</text>
+    <rect x="382.0" y="407" width="76" height="76" rx="14" ry="14" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+    <circle cx="420.0" cy="445" r="30" fill="none" stroke="#EF4444" stroke-width="3" filter="url(#glowRed)"/>
+    <circle cx="420.0" cy="445" r="23" fill="#EF4444" opacity="0.12"/>
+    <text x="420.0" y="447" fill="#F87171" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle">G1</text>
+    <path d="M412.0,486 L428.0,493 L412.0,500 Z" fill="#4ADE80" filter="url(#glowGreen)"/>
+    <line x1="420.0" y1="407" x2="420.0" y2="415" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="420.0" cy="407" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="420.0" y1="390" x2="420.0" y2="407" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="controls_0">
+      <rect x="387.0" y="515" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#EF4444" stroke-width="1"/>
+      <text x="419.5" y="528.0" fill="#EF4444" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Stop</text>
+      <rect x="387.0" y="543" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#4ADE80" stroke-width="1"/>
+      <text x="419.5" y="556.0" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Auto</text>
+      <rect x="387.0" y="571" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#3B82F6" stroke-width="1"/>
+      <text x="419.5" y="584.0" fill="#3B82F6" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Start</text>
+      <rect x="387.0" y="599" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#94A3B8" stroke-width="1"/>
+      <text x="419.5" y="612.0" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Block</text>
+      <rect x="387.0" y="627" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#FACC15" stroke-width="1"/>
+      <text x="419.5" y="640.0" fill="#FACC15" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Alarm
+Reset</text>
+    </g>
+    <rect x="462.0" y="515" width="110" height="108" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="470.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="9">P</text>
+    <text x="542.0" y="529" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">1684</text>
+    <text x="566.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="470.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="9">P set</text>
+    <text x="542.0" y="545" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">1702</text>
+    <text x="566.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="470.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="9">Q</text>
+    <text x="542.0" y="561" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">-17</text>
+    <text x="566.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kVAr</text>
+    <text x="470.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="9">PF</text>
+    <text x="542.0" y="577" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0.99</text>
+    <text x="566.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end"/>
+    <text x="470.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="9">V</text>
+    <text x="542.0" y="593" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">13796</text>
+    <text x="566.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">V</text>
+    <text x="470.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="9">f</text>
+    <text x="542.0" y="609" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">60.0</text>
+    <text x="566.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">Hz</text>
+  </g>
+  <g id="gen_col_1">
+    <line x1="640.0" y1="140" x2="640.0" y2="162" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="140" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="627.0" y="162" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="633.0" y1="175.0" x2="647.0" y2="175.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="640.0" y1="188" x2="640.0" y2="195" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="195" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="662.0" y="168" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW2B</text>
+    <line x1="640.0" y1="195" x2="640.0" y2="260" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="265" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="640.0" y1="270" x2="640.0" y2="292" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="270" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="627.0" y="292" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="633.0" y1="305.0" x2="647.0" y2="305.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="640.0" y1="318" x2="640.0" y2="325" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="662.0" y="298" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW2A</text>
+    <line x1="640.0" y1="325" x2="640.0" y2="347" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="627.0" y="347" width="26" height="26" rx="5" ry="5" fill="#4ADE80" filter="url(#glowGreen)" stroke="#86EFAC" stroke-width="0.6"/>
+    <line x1="634.0" y1="353" x2="646.0" y2="367" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="646.0" y1="353" x2="634.0" y2="367" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="640.0" y1="373" x2="640.0" y2="390" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="390" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="662.0" y="353" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">GCB[2]</text>
+    <rect x="602.0" y="407" width="76" height="76" rx="14" ry="14" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+    <circle cx="640.0" cy="445" r="30" fill="none" stroke="#4ADE80" stroke-width="3" filter="url(#glowGreen)"/>
+    <circle cx="640.0" cy="445" r="23" fill="#4ADE80" opacity="0.12"/>
+    <text x="640.0" y="447" fill="#86EFAC" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle">G2</text>
+    <rect x="633.0" y="486" width="14" height="14" rx="3" ry="3" fill="#FACC15" filter="url(#glowYellow)"/>
+    <path d="M668.0,409 L675.0,422 L661.0,422 Z" fill="none" stroke="#FACC15" stroke-width="1.5"/>
+    <text x="668.0" y="420" fill="#FACC15" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">!</text>
+    <line x1="640.0" y1="407" x2="640.0" y2="415" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="640.0" cy="407" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="640.0" y1="390" x2="640.0" y2="407" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="controls_1">
+      <rect x="607.0" y="515" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#EF4444" stroke-width="1"/>
+      <text x="639.5" y="528.0" fill="#EF4444" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Stop</text>
+      <rect x="607.0" y="543" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#4ADE80" stroke-width="1"/>
+      <text x="639.5" y="556.0" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Auto</text>
+      <rect x="607.0" y="571" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#3B82F6" stroke-width="1"/>
+      <text x="639.5" y="584.0" fill="#3B82F6" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Start</text>
+      <rect x="607.0" y="599" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#94A3B8" stroke-width="1"/>
+      <text x="639.5" y="612.0" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Block</text>
+      <rect x="607.0" y="627" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#FACC15" stroke-width="1"/>
+      <text x="639.5" y="640.0" fill="#FACC15" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Alarm
+Reset</text>
+    </g>
+    <rect x="682.0" y="515" width="110" height="108" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="690.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="9">P</text>
+    <text x="762.0" y="529" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="786.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="690.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="9">P set</text>
+    <text x="762.0" y="545" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="786.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="690.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="9">Q</text>
+    <text x="762.0" y="561" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="786.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kVAr</text>
+    <text x="690.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="9">PF</text>
+    <text x="762.0" y="577" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="786.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end"/>
+    <text x="690.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="9">V</text>
+    <text x="762.0" y="593" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="786.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">V</text>
+    <text x="690.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="9">f</text>
+    <text x="762.0" y="609" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="786.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">Hz</text>
+  </g>
+  <g id="gen_col_2">
+    <line x1="860.0" y1="140" x2="860.0" y2="162" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="140" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="847.0" y="162" width="26" height="26" rx="5" ry="5" fill="#4ADE80" filter="url(#glowGreen)" stroke="#86EFAC" stroke-width="0.6"/>
+    <line x1="854.0" y1="168" x2="866.0" y2="182" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="866.0" y1="168" x2="854.0" y2="182" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="860.0" y1="188" x2="860.0" y2="195" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="195" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="882.0" y="168" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW3B</text>
+    <line x1="860.0" y1="195" x2="860.0" y2="260" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="265" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="860.0" y1="270" x2="860.0" y2="292" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="270" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="847.0" y="292" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="853.0" y1="305.0" x2="867.0" y2="305.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="860.0" y1="318" x2="860.0" y2="325" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="882.0" y="298" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW3A</text>
+    <line x1="860.0" y1="325" x2="860.0" y2="347" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="847.0" y="347" width="26" height="26" rx="5" ry="5" fill="#4ADE80" filter="url(#glowGreen)" stroke="#86EFAC" stroke-width="0.6"/>
+    <line x1="854.0" y1="353" x2="866.0" y2="367" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="866.0" y1="353" x2="854.0" y2="367" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="860.0" y1="373" x2="860.0" y2="390" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="390" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="882.0" y="353" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">GCB[3]</text>
+    <rect x="822.0" y="407" width="76" height="76" rx="14" ry="14" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+    <circle cx="860.0" cy="445" r="30" fill="none" stroke="#4ADE80" stroke-width="3" filter="url(#glowGreen)"/>
+    <circle cx="860.0" cy="445" r="23" fill="#4ADE80" opacity="0.12"/>
+    <text x="860.0" y="447" fill="#86EFAC" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle">G3</text>
+    <circle cx="860.0" cy="493" r="7" fill="#4ADE80" filter="url(#glowGreen)"/>
+    <line x1="860.0" y1="407" x2="860.0" y2="415" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="860.0" cy="407" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="860.0" y1="390" x2="860.0" y2="407" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="controls_2">
+      <rect x="827.0" y="515" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#EF4444" stroke-width="1"/>
+      <text x="859.5" y="528.0" fill="#EF4444" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Stop</text>
+      <rect x="827.0" y="543" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#4ADE80" stroke-width="1"/>
+      <text x="859.5" y="556.0" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Auto</text>
+      <rect x="827.0" y="571" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#3B82F6" stroke-width="1"/>
+      <text x="859.5" y="584.0" fill="#3B82F6" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Start</text>
+      <rect x="827.0" y="599" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#94A3B8" stroke-width="1"/>
+      <text x="859.5" y="612.0" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Block</text>
+      <rect x="827.0" y="627" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#FACC15" stroke-width="1"/>
+      <text x="859.5" y="640.0" fill="#FACC15" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Alarm
+Reset</text>
+    </g>
+    <rect x="902.0" y="515" width="110" height="108" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="910.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="9">P</text>
+    <text x="982.0" y="529" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1006.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="910.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="9">P set</text>
+    <text x="982.0" y="545" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1006.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="910.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="9">Q</text>
+    <text x="982.0" y="561" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1006.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kVAr</text>
+    <text x="910.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="9">PF</text>
+    <text x="982.0" y="577" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1006.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end"/>
+    <text x="910.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="9">V</text>
+    <text x="982.0" y="593" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1006.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">V</text>
+    <text x="910.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="9">f</text>
+    <text x="982.0" y="609" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1006.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">Hz</text>
+  </g>
+  <g id="gen_col_3">
+    <line x1="1080.0" y1="140" x2="1080.0" y2="162" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="140" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="1067.0" y="162" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="1073.0" y1="175.0" x2="1087.0" y2="175.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="1080.0" y1="188" x2="1080.0" y2="195" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="195" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="1102.0" y="168" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW4B</text>
+    <line x1="1080.0" y1="195" x2="1080.0" y2="260" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="265" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="1080.0" y1="270" x2="1080.0" y2="292" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="270" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="1067.0" y="292" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="1073.0" y1="305.0" x2="1087.0" y2="305.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="1080.0" y1="318" x2="1080.0" y2="325" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="1102.0" y="298" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">SW4A</text>
+    <line x1="1080.0" y1="325" x2="1080.0" y2="347" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="325" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="1067.0" y="347" width="26" height="26" rx="5" ry="5" fill="#3B82F6" filter="url(#glowBlue)" stroke="#60A5FA" stroke-width="0.6"/>
+    <path d="M1085.0,353 A7,7 0 1 0 1086.0,361.0" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="1080.0" y1="373" x2="1080.0" y2="390" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="390" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="1102.0" y="353" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">GCB[4]</text>
+    <rect x="1042.0" y="407" width="76" height="76" rx="14" ry="14" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+    <circle cx="1080.0" cy="445" r="30" fill="none" stroke="#3B82F6" stroke-width="3" filter="url(#glowBlue)"/>
+    <circle cx="1080.0" cy="445" r="23" fill="#3B82F6" opacity="0.12"/>
+    <text x="1080.0" y="447" fill="#60A5FA" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle">G4</text>
+    <path d="M1072.0,486 L1088.0,493 L1072.0,500 Z" fill="#4ADE80" filter="url(#glowGreen)"/>
+    <line x1="1080.0" y1="407" x2="1080.0" y2="415" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1080.0" cy="407" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="1080.0" y1="390" x2="1080.0" y2="407" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <g id="controls_3">
+      <rect x="1047.0" y="515" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#EF4444" stroke-width="1"/>
+      <text x="1079.5" y="528.0" fill="#EF4444" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Stop</text>
+      <rect x="1047.0" y="543" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#4ADE80" stroke-width="1"/>
+      <text x="1079.5" y="556.0" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Auto</text>
+      <rect x="1047.0" y="571" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#3B82F6" stroke-width="1"/>
+      <text x="1079.5" y="584.0" fill="#3B82F6" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Start</text>
+      <rect x="1047.0" y="599" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#94A3B8" stroke-width="1"/>
+      <text x="1079.5" y="612.0" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Block</text>
+      <rect x="1047.0" y="627" width="65" height="24" rx="5" ry="5" fill="#111d2e" stroke="#FACC15" stroke-width="1"/>
+      <text x="1079.5" y="640.0" fill="#FACC15" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Alarm
+Reset</text>
+    </g>
+    <rect x="1122.0" y="515" width="110" height="108" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="1130.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="9">P</text>
+    <text x="1202.0" y="529" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1226.0" y="529" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="1130.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="9">P set</text>
+    <text x="1202.0" y="545" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">1702</text>
+    <text x="1226.0" y="545" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="1130.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="9">Q</text>
+    <text x="1202.0" y="561" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1226.0" y="561" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kVAr</text>
+    <text x="1130.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="9">PF</text>
+    <text x="1202.0" y="577" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1226.0" y="577" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end"/>
+    <text x="1130.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="9">V</text>
+    <text x="1202.0" y="593" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1226.0" y="593" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">V</text>
+    <text x="1130.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="9">f</text>
+    <text x="1202.0" y="609" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">0</text>
+    <text x="1226.0" y="609" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">Hz</text>
+  </g>
+  <g id="xfmr">
+    <line x1="1270" y1="270" x2="1270" y2="285" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1270" cy="270" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <line x1="1270" y1="285" x2="1270" y2="307" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1270" cy="285" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <rect x="1257.0" y="307" width="26" height="26" rx="5" ry="5" fill="#EF4444" filter="url(#glowRed)" stroke="#F87171" stroke-width="0.6"/>
+    <line x1="1263" y1="320.0" x2="1277" y2="320.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="1270" y1="333" x2="1270" y2="345" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1270" cy="345" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="1292" y="313" fill="#CBD5E1" font-family="Consolas, monospace" font-size="9" font-weight="bold">XFMR CB</text>
+    <rect x="1244" y="360" width="52" height="60" rx="8" ry="8" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="1270" y1="345" x2="1270" y2="372" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1270" cy="345" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <circle cx="1270" cy="383" r="12" fill="none" stroke="#EF4444" stroke-width="2.5" filter="url(#glowRed)"/>
+    <circle cx="1270" cy="400" r="12" fill="none" stroke="#EF4444" stroke-width="2.5" filter="url(#glowRed)"/>
+    <line x1="1270" y1="412" x2="1270" y2="430" stroke="#4FC3F7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1270" cy="430" r="4" fill="#4FC3F7" stroke="#0288D1" stroke-width="0.8"/>
+    <text x="1300" y="442" fill="#CBD5E1" font-family="Consolas, monospace" font-size="10" font-weight="bold">XFMR-1</text>
+    <text x="1300" y="454" fill="#94A3B8" font-family="Consolas, monospace" font-size="8">13.8/34.5kV</text>
+    <rect x="1305" y="350" width="110" height="76" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="1313" y="364" fill="#64748B" font-family="Consolas, monospace" font-size="9">P</text>
+    <text x="1385" y="364" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">6726</text>
+    <text x="1409" y="364" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kW</text>
+    <text x="1313" y="380" fill="#64748B" font-family="Consolas, monospace" font-size="9">Q</text>
+    <text x="1385" y="380" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">120</text>
+    <text x="1409" y="380" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">kVAr</text>
+    <text x="1313" y="396" fill="#64748B" font-family="Consolas, monospace" font-size="9">V1</text>
+    <text x="1385" y="396" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">13794</text>
+    <text x="1409" y="396" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">V</text>
+    <text x="1313" y="412" fill="#64748B" font-family="Consolas, monospace" font-size="9">V2</text>
+    <text x="1385" y="412" fill="#60A5FA" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">34530</text>
+    <text x="1409" y="412" fill="#64748B" font-family="Consolas, monospace" font-size="8" text-anchor="end">V</text>
+  </g>
+  <g id="bus_tie">
+    <text x="770.0" y="122" fill="#CBD5E1" font-family="Consolas, monospace" font-size="8">BUS TIE</text>
+  </g>
+  <g id="total_power">
+    <rect x="40" y="420" width="150" height="42" rx="8" ry="8" fill="#0f1d30" stroke="#4ADE80" stroke-width="1"/>
+    <text x="50" y="436" fill="#94A3B8" font-family="Consolas, monospace" font-size="8">Total Power Generators</text>
+    <text x="115" y="455" fill="#4ADE80" font-family="Consolas, monospace" font-size="16" font-weight="bold" text-anchor="middle">6726</text>
+    <text x="155" y="455" fill="#64748B" font-family="Consolas, monospace" font-size="10">kW</text>
+  </g>
+  <g id="genset_detail_panel">
+    <rect x="40" y="130" width="150" height="330" rx="8" ry="8" fill="#0f1d30" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="115.0" y="148" fill="#F1F5F9" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">G1 - DETAIL</text>
+    <line x1="50" y1="156" x2="180" y2="156" stroke="#1e3a5f" stroke-width="0.5"/>
+    <text x="48" y="172" fill="#4FC3F7" font-family="Consolas, monospace" font-size="9" font-weight="bold">Operator Panel</text>
+    <text x="50" y="185" fill="#64748B" font-family="Consolas, monospace" font-size="9">Op. Mode</text>
+    <text x="180" y="185" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">Auto</text>
+    <text x="50" y="203" fill="#64748B" font-family="Consolas, monospace" font-size="9">Request</text>
+    <text x="180" y="203" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">Run</text>
+    <text x="50" y="221" fill="#64748B" font-family="Consolas, monospace" font-size="9">Synch</text>
+    <text x="180" y="221" fill="#4ADE80" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">Auto</text>
+    <line x1="50" y1="240" x2="180" y2="240" stroke="#1e3a5f" stroke-width="0.5"/>
+    <text x="48" y="255" fill="#4FC3F7" font-family="Consolas, monospace" font-size="9" font-weight="bold">Engine Parameters</text>
+    <text x="50" y="270" fill="#64748B" font-family="Consolas, monospace" font-size="8">Speed</text>
+    <text x="162" y="270" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">1800</text>
+    <text x="182" y="270" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">RPM</text>
+    <text x="50" y="287" fill="#64748B" font-family="Consolas, monospace" font-size="8">Oil Press</text>
+    <text x="162" y="287" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">62</text>
+    <text x="182" y="287" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">psi</text>
+    <text x="50" y="304" fill="#64748B" font-family="Consolas, monospace" font-size="8">Coolant</text>
+    <text x="162" y="304" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">185</text>
+    <text x="182" y="304" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">°F</text>
+    <text x="50" y="321" fill="#64748B" font-family="Consolas, monospace" font-size="8">Exhaust</text>
+    <text x="162" y="321" fill="#FACC15" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">842</text>
+    <text x="182" y="321" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">°F</text>
+    <text x="50" y="338" fill="#64748B" font-family="Consolas, monospace" font-size="8">Turbo</text>
+    <text x="162" y="338" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">28.5</text>
+    <text x="182" y="338" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">inHg</text>
+    <text x="50" y="355" fill="#64748B" font-family="Consolas, monospace" font-size="8">Fuel Press</text>
+    <text x="162" y="355" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">48</text>
+    <text x="182" y="355" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">psi</text>
+    <text x="50" y="372" fill="#64748B" font-family="Consolas, monospace" font-size="8">SCR Inlet</text>
+    <text x="162" y="372" fill="#86EFAC" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">615</text>
+    <text x="182" y="372" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">°F</text>
+    <line x1="50" y1="392" x2="180" y2="392" stroke="#1e3a5f" stroke-width="0.5"/>
+    <text x="48" y="407" fill="#4FC3F7" font-family="Consolas, monospace" font-size="9" font-weight="bold">Electrical</text>
+    <text x="50" y="422" fill="#64748B" font-family="Consolas, monospace" font-size="8">Va</text>
+    <text x="162" y="422" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">7960</text>
+    <text x="182" y="422" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">V</text>
+    <text x="50" y="438" fill="#64748B" font-family="Consolas, monospace" font-size="8">Ia</text>
+    <text x="162" y="438" fill="#F87171" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">122</text>
+    <text x="182" y="438" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">A</text>
+    <text x="50" y="454" fill="#64748B" font-family="Consolas, monospace" font-size="8">Apparent</text>
+    <text x="162" y="454" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="end">1704</text>
+    <text x="182" y="454" fill="#64748B" font-family="Consolas, monospace" font-size="7" text-anchor="end">kVA</text>
+  </g>
+  <g id="nav_bar">
+    <rect x="0" y="1006" width="1600" height="44" fill="#111d2e" stroke="#1e3a5f" stroke-width="0.5"/>
+    <rect x="385.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="440.0" y="1031" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">HOME</text>
+    <rect x="505.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#2563EB" stroke="#3B82F6" stroke-width="1"/>
+    <text x="560.0" y="1031" fill="#F1F5F9" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MV PMS</text>
+    <rect x="625.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="680.0" y="1031" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">LV PMS</text>
+    <rect x="745.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="800.0" y="1031" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">BOPMS</text>
+    <rect x="865.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="920.0" y="1031" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">CCMS</text>
+    <rect x="985.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="1040.0" y="1031" fill="#FACC15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">ALARMS</text>
+    <rect x="1105.0" y="1012" width="110" height="32" rx="6" ry="6" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="1160.0" y="1031" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">TRENDING</text>
+  </g>
+  <g id="legend">
+    <rect x="1420" y="830" width="165" height="160" rx="8" ry="8" fill="#0f1d30" stroke="#1e3a5f" stroke-width="0.8"/>
+    <text x="1502" y="846" fill="#94A3B8" font-family="Consolas, monospace" font-size="9" font-weight="bold" text-anchor="middle">STATE LEGEND</text>
+    <circle cx="1436" cy="864" r="5" fill="#EF4444"/>
+    <text x="1448" y="868" fill="#94A3B8" font-family="Consolas, monospace" font-size="9">Running/Closed</text>
+    <circle cx="1436" cy="884" r="5" fill="#4ADE80"/>
+    <text x="1448" y="888" fill="#94A3B8" font-family="Consolas, monospace" font-size="9">Stopped/Open</text>
+    <circle cx="1436" cy="904" r="5" fill="#3B82F6"/>
+    <text x="1448" y="908" fill="#94A3B8" font-family="Consolas, monospace" font-size="9">Starting/Sync</text>
+    <circle cx="1436" cy="924" r="5" fill="#FACC15"/>
+    <text x="1448" y="928" fill="#94A3B8" font-family="Consolas, monospace" font-size="9">Alarm/Stopping</text>
+    <line x1="1430" y1="945" x2="1575" y2="945" stroke="#1e3a5f" stroke-width="0.5"/>
+    <text x="1502" y="960" fill="#94A3B8" font-family="Consolas, monospace" font-size="8" font-weight="bold" text-anchor="middle">MODE INDICATORS</text>
+    <path d="M1431,969 L1441,975 L1431,981 Z" fill="#4ADE80"/>
+    <text x="1448" y="979" fill="#94A3B8" font-family="Consolas, monospace" font-size="9">Auto</text>
+    <circle cx="1520" cy="975" r="6" fill="#4ADE80"/>
+    <text x="1532" y="979" fill="#94A3B8" font-family="Consolas, monospace" font-size="9">Manual</text>
+  </g>
+</svg>

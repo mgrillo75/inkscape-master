@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="100" viewBox="0 0 140 100" id="telemetry_panel_bindable" data-ignition-bindable="true" data-bind-targets="val_p,val_q,val_v,val_f">
+  <defs>
+    <linearGradient id="panBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="140" height="100" rx="8" ry="8" fill="url(#panBg)" stroke="#334155" stroke-width="1"/>
+  <text x="12" y="18" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">P</text>
+  <text x="80" y="18" id="val_p" fill="#60a5fa" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" text-anchor="end" data-bind-key="p_value" data-default="402.5" data-unit="kW">402.5</text>
+  <text x="86" y="18" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="9">kW</text>
+  <line x1="10" y1="25" x2="130" y2="25" stroke="#334155" stroke-width="0.5"/>
+  <text x="12" y="39" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">Q</text>
+  <text x="80" y="39" id="val_q" fill="#4ade80" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" text-anchor="end" data-bind-key="q_value" data-default="120.8" data-unit="kVAr">120.8</text>
+  <text x="86" y="39" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="9">kVAr</text>
+  <line x1="10" y1="46" x2="130" y2="46" stroke="#334155" stroke-width="0.5"/>
+  <text x="12" y="60" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">V</text>
+  <text x="80" y="60" id="val_v" fill="#f87171" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" text-anchor="end" data-bind-key="v_value" data-default="13.8" data-unit="kV">13.8</text>
+  <text x="86" y="60" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="9">kV</text>
+  <line x1="10" y1="67" x2="130" y2="67" stroke="#334155" stroke-width="0.5"/>
+  <text x="12" y="81" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">F</text>
+  <text x="80" y="81" id="val_f" fill="#eab308" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" text-anchor="end" data-bind-key="f_value" data-default="60.0" data-unit="Hz">60.0</text>
+  <text x="86" y="81" fill="#6b7280" font-family="'JetBrains Mono', Consolas, monospace" font-size="9">Hz</text>
+</svg>

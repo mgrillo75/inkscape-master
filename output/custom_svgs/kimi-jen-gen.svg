@@ -1,0 +1,209 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
+    <desc>INNIO Jenbacher J620 Gas Engine</desc>
+    
+    <!-- Definitions for gradients -->
+    <defs>
+      <linearGradient id="greenBody" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#43A047;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="greenDark" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#388E3C;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#1B5E20;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="silverPipe" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#E0E0E0;stop-opacity:1" />
+        <stop offset="30%" style="stop-color:#BDBDBD;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#9E9E9E;stop-opacity:1" />
+        <stop offset="70%" style="stop-color:#BDBDBD;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="silverCyl" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#9E9E9E;stop-opacity:1" />
+        <stop offset="20%" style="stop-color:#E0E0E0;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#F5F5F5;stop-opacity:1" />
+        <stop offset="80%" style="stop-color:#E0E0E0;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#9E9E9E;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#1976D2;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#2196F3;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Main Base/Frame -->
+    <rect x="50" y="260" width="700" height="70" rx="3" fill="url(#greenDark)" stroke="#1B5E20" stroke-width="2"/>
+    <rect x="60" y="270" width="680" height="50" rx="2" fill="none" stroke="#2E7D32" stroke-width="1"/>
+    
+    <!-- Left Generator Section -->
+    <rect x="50" y="140" width="180" height="120" rx="5" fill="url(#greenBody)" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Ventilation slats on generator -->
+    <g fill="#1B5E20">
+      <rect x="70" y="160" width="40" height="4" rx="1"/>
+      <rect x="70" y="170" width="40" height="4" rx="1"/>
+      <rect x="70" y="180" width="40" height="4" rx="1"/>
+      <rect x="70" y="190" width="40" height="4" rx="1"/>
+      <rect x="70" y="200" width="40" height="4" rx="1"/>
+      <rect x="70" y="210" width="40" height="4" rx="1"/>
+      <rect x="70" y="220" width="40" height="4" rx="1"/>
+      <rect x="70" y="230" width="40" height="4" rx="1"/>
+    </g>
+    
+    <!-- Generator end cap -->
+    <rect x="30" y="155" width="25" height="90" rx="3" fill="url(#greenBody)" stroke="#2E7D32" stroke-width="2"/>
+    <ellipse cx="30" cy="200" rx="8" ry="40" fill="#43A047" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Main Engine Block -->
+    <rect x="230" y="130" width="350" height="130" rx="5" fill="url(#greenBody)" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Engine block details -->
+    <rect x="245" y="145" width="320" height="100" rx="3" fill="none" stroke="#388E3C" stroke-width="1"/>
+    
+    <!-- Cylinder covers -->
+    <g fill="#4CAF50" stroke="#2E7D32" stroke-width="1">
+      <rect x="250" y="200" width="35" height="40" rx="2"/>
+      <rect x="290" y="200" width="35" height="40" rx="2"/>
+      <rect x="330" y="200" width="35" height="40" rx="2"/>
+      <rect x="370" y="200" width="35" height="40" rx="2"/>
+      <rect x="410" y="200" width="35" height="40" rx="2"/>
+      <rect x="450" y="200" width="35" height="40" rx="2"/>
+      <rect x="490" y="200" width="35" height="40" rx="2"/>
+      <rect x="530" y="200" width="35" height="40" rx="2"/>
+    </g>
+    
+    <!-- Ready for H2 Logo Area -->
+    <circle cx="380" cy="175" r="22" fill="#FFFFFF" stroke="#4CAF50" stroke-width="2"/>
+    <text x="380" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#666">ready for</text>
+    <text x="380" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4CAF50">H₂</text>
+    
+    <!-- Ventilation on main block -->
+    <g fill="#1B5E20">
+      <rect x="480" y="145" width="30" height="3" rx="1"/>
+      <rect x="480" y="152" width="30" height="3" rx="1"/>
+      <rect x="480" y="159" width="30" height="3" rx="1"/>
+      <rect x="480" y="166" width="30" height="3" rx="1"/>
+      <rect x="480" y="173" width="30" height="3" rx="1"/>
+    </g>
+    
+    <!-- Top Control Box -->
+    <rect x="240" y="70" width="200" height="55" rx="3" fill="url(#greenBody)" stroke="#2E7D32" stroke-width="2"/>
+    <rect x="250" y="80" width="180" height="35" rx="2" fill="#388E3C" stroke="#2E7D32" stroke-width="1"/>
+    
+    <!-- Control indicators -->
+    <circle cx="270" cy="97" r="6" fill="url(#blueAccent)" stroke="#1565C0" stroke-width="1"/>
+    <circle cx="295" cy="97" r="6" fill="url(#blueAccent)" stroke="#1565C0" stroke-width="1"/>
+    <circle cx="320" cy="97" r="6" fill="url(#blueAccent)" stroke="#1565C0" stroke-width="1"/>
+    <circle cx="345" cy="97" r="6" fill="url(#blueAccent)" stroke="#1565C0" stroke-width="1"/>
+    
+    <!-- Main Exhaust Pipe (Silver) -->
+    <rect x="520" y="85" width="200" height="35" rx="5" fill="url(#silverCyl)" stroke="#757575" stroke-width="2"/>
+    
+    <!-- Exhaust connection -->
+    <rect x="500" y="90" width="30" height="25" rx="3" fill="#BDBDBD" stroke="#757575" stroke-width="1"/>
+    
+    <!-- Jenbacher Logo Area -->
+    <rect x="580" y="92" width="80" height="20" rx="2" fill="#424242" stroke="#212121" stroke-width="1"/>
+    <text x="620" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">JENBACHER</text>
+    
+    <!-- Turbocharger/Intake fans -->
+    <circle cx="515" cy="55" r="25" fill="#E0E0E0" stroke="#757575" stroke-width="2"/>
+    <circle cx="515" cy="55" r="20" fill="none" stroke="#9E9E9E" stroke-width="1"/>
+    <g stroke="#757575" stroke-width="1">
+      <line x1="515" y1="35" x2="515" y2="75"/>
+      <line x1="495" y1="55" x2="535" y2="55"/>
+      <line x1="501" y1="41" x2="529" y2="69"/>
+      <line x1="529" y1="41" x2="501" y2="69"/>
+    </g>
+    
+    <circle cx="560" cy="55" r="25" fill="#E0E0E0" stroke="#757575" stroke-width="2"/>
+    <circle cx="560" cy="55" r="20" fill="none" stroke="#9E9E9E" stroke-width="1"/>
+    <g stroke="#757575" stroke-width="1">
+      <line x1="560" y1="35" x2="560" y2="75"/>
+      <line x1="540" y1="55" x2="580" y2="55"/>
+      <line x1="546" y1="41" x2="574" y2="69"/>
+      <line x1="574" y1="41" x2="546" y2="69"/>
+    </g>
+    
+    <!-- Intake Pipe -->
+    <rect x="590" y="50" width="150" height="25" rx="12" fill="url(#silverPipe)" stroke="#757575" stroke-width="2"/>
+    
+    <!-- Lower Exhaust Manifold -->
+    <rect x="520" y="140" width="220" height="30" rx="3" fill="url(#silverCyl)" stroke="#757575" stroke-width="2"/>
+    
+    <!-- Heat shield wrap effect -->
+    <g fill="none" stroke="#9E9E9E" stroke-width="1">
+      <line x1="530" y1="145" x2="730" y2="145"/>
+      <line x1="530" y1="150" x2="730" y2="150"/>
+      <line x1="530" y1="155" x2="730" y2="155"/>
+      <line x1="530" y1="160" x2="730" y2="160"/>
+      <line x1="530" y1="165" x2="730" y2="165"/>
+    </g>
+    
+    <!-- Right Engine Section -->
+    <rect x="590" y="180" width="160" height="80" rx="5" fill="url(#greenBody)" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Right section details -->
+    <g fill="#388E3C" stroke="#2E7D32" stroke-width="1">
+      <rect x="600" y="190" width="25" height="60" rx="2"/>
+      <rect x="630" y="190" width="25" height="60" rx="2"/>
+      <rect x="660" y="190" width="25" height="60" rx="2"/>
+      <rect x="690" y="190" width="25" height="60" rx="2"/>
+      <rect x="720" y="190" width="25" height="60" rx="2"/>
+    </g>
+    
+    <!-- HYDROGEN text -->
+    <text x="670" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF">HYDROGEN</text>
+    
+    <!-- Piping and Connections -->
+    <!-- Green pipes -->
+    <path d="M 200 180 Q 220 180 230 170" fill="none" stroke="#4CAF50" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 200 200 Q 220 200 230 200" fill="none" stroke="#4CAF50" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 200 220 Q 220 220 230 220" fill="none" stroke="#4CAF50" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Black hoses/cables -->
+    <path d="M 580 200 Q 590 210 600 220" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 585 205 Q 595 215 605 225" fill="none" stroke="#212121" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Silver elbow pipe -->
+    <path d="M 740 100 Q 760 100 760 120 L 760 140" fill="none" stroke="url(#silverPipe)" stroke-width="20" stroke-linecap="round"/>
+    
+    <!-- Mounting feet -->
+    <rect x="80" y="325" width="40" height="15" rx="2" fill="#424242" stroke="#212121" stroke-width="1"/>
+    <rect x="300" y="325" width="40" height="15" rx="2" fill="#424242" stroke="#212121" stroke-width="1"/>
+    <rect x="520" y="325" width="40" height="15" rx="2" fill="#424242" stroke="#212121" stroke-width="1"/>
+    <rect x="700" y="325" width="40" height="15" rx="2" fill="#424242" stroke="#212121" stroke-width="1"/>
+    
+    <!-- Bolts details -->
+    <g fill="#9E9E9E" stroke="#757575" stroke-width="1">
+      <circle cx="90" cy="332" r="4"/>
+      <circle cx="110" cy="332" r="4"/>
+      <circle cx="310" cy="332" r="4"/>
+      <circle cx="330" cy="332" r="4"/>
+      <circle cx="530" cy="332" r="4"/>
+      <circle cx="550" cy="332" r="4"/>
+      <circle cx="710" cy="332" r="4"/>
+      <circle cx="730" cy="332" r="4"/>
+    </g>
+    
+    <!-- Shadow/depth effects -->
+    <rect x="50" y="260" width="700" height="8" rx="2" fill="#000000" opacity="0.2"/>
+    <rect x="230" y="130" width="350" height="8" rx="2" fill="#000000" opacity="0.15"/>
+    <rect x="240" y="70" width="200" height="6" rx="2" fill="#000000" opacity="0.15"/>
+    
+    <!-- Additional piping details -->
+    <path d="M 450 120 L 450 130" fill="none" stroke="#BDBDBD" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 470 120 L 470 130" fill="none" stroke="#BDBDBD" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 490 120 L 490 130" fill="none" stroke="#BDBDBD" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Small details - sensors/gauges -->
+    <circle cx="420" cy="155" r="5" fill="#757575" stroke="#424242" stroke-width="1"/>
+    <circle cx="440" cy="155" r="5" fill="#757575" stroke="#424242" stroke-width="1"/>
+    
+    <!-- Side panel lines -->
+    <line x1="230" y1="250" x2="580" y2="250" stroke="#1B5E20" stroke-width="2"/>
+    <line x1="230" y1="255" x2="580" y2="255" stroke="#388E3C" stroke-width="1"/>
+    
+    </svg>
